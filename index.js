@@ -8,5 +8,14 @@ function convert(){
     if(7.0 <= input && input <=7.9) document.getElementById("result").innerHTML = "Điểm của bạn: B";
     if(8.0 <= input && input <=8.4) document.getElementById("result").innerHTML = "Điểm của bạn: B+";
     if(8.5 <= input && input <=10) document.getElementById("result").innerHTML = "Điểm của bạn: A";
-
 }   
+
+
+function convert2(){
+   var input = document.getElementById("input2").value;
+   if(input ==1) document.getElementById("kipthi").innerHTML ="Kip thi 7h";
+   if(input ==2) document.getElementById("kipthi").innerHTML ="Kip thi 9h30";
+   if(input ==3) document.getElementById("kipthi").innerHTML ="Kip thi 12h30";
+   if(input ==4) document.getElementById("kipthi").innerHTML ="Kip thi 15h";
+
+}
