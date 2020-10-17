@@ -10,6 +10,7 @@ function convert(){
     if(8.5 <= input && input <=10) document.getElementById("result").innerHTML = "Điểm của bạn: A";
 }   
 
+<<<<<<< HEAD:index.js
 
 function convert2(){
    var input = document.getElementById("input2").value;
@@ -19,3 +20,6 @@ function convert2(){
    if(input ==4) document.getElementById("kipthi").innerHTML ="Kip thi 15h";
 
 }
+=======
+}   
+>>>>>>> 59e8a5326ca1e45fca5b40202b9e6cc27145c0a7:sources/index.js
